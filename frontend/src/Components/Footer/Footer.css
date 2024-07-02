@@ -29,9 +29,12 @@ gap: 20px;
 .footer-social-icon{
     display: flex;
     gap: 20px;
+    align-items: center;
 
 }
 .footer-icons-container {
+    align-items: center;
+    display: flex;
     text-align: center;
     padding: 20px;
     margin: 10px;
@@ -67,4 +70,30 @@ font-size: 20px;
     border-radius: 10px;
     height: 3px;
     background: #b4b5c5;
+}
+.footer-icons-container1 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    object-fit: cover;
+}
+.footer-icons-container2 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    object-fit: cover;
+}
+.footer-icons-container3 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    object-fit: cover;
+}
+.footer-icons-container3:hover{
+        color: #0056b3;
+      }
+.about-us{
+    display: flex;
+    gap: 200px;
+    align-items: center;
 }
