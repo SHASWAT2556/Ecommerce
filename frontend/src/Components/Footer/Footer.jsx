@@ -4,6 +4,9 @@ import footer_logo from '../Assets/logo_big.png'
 import instagram_icon from '../Assets/instagram_icon.png'
 import pintester_icon from '../Assets/pintester_icon.png'
 import whatsapp_icon from '../Assets/whatsapp_icon.png'
+import shristi_icon from '../Assets/shristi_icon.png'
+import shubh_icon from '../Assets/shubh_icon.png'
+import shashwat_icon from '../Assets/shashwat_icon.png'
  const Footer = () => {
   return (
     <div className="footer">
@@ -31,23 +34,24 @@ import whatsapp_icon from '../Assets/whatsapp_icon.png'
      <img src={whatsapp_icon} alt=''/>
 </div>
 </div>
-<div>
-</div>
-
-<div className="footer-icons-container">
+<div className='about-us'>
+    <div className="footer-icons-container1">
+    <img src={shristi_icon} alt=''/>
     <h1>Shristi Dixit</h1>
 </div>
-<div className="footer-icons-container">
-
+<div className="footer-icons-container2">
+    <img src={shubh_icon} alt='' />
     <h1>Shubh Gupta</h1>
 </div>
-<div className="footer-icons-container">
+<div className="footer-icons-container3">
+    <img src={shashwat_icon} alt=""/>
     <h1>Shashwat Tripathi</h1>
 </div>
-    </div>
+</div>
     <div className="footer-copyright">
         <hr/>
         <p>Copyright @ 2024 -All Rights Reserved.</p>
+    </div>
     </div>
     </div>
   )
